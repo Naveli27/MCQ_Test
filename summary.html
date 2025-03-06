@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test Summary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Test Summary</h1>
+    <p>Your Score: {{ correct_count }} / {{ total_questions }}</p>
+    <a href="{{ url_for('home') }}" class="btn">Go Home</a>
+</body>
+</html>

@@ -1,0 +1,16 @@
+1.Install flask -:pip install flask
+2.Create virtual environment -:python -m venv venv  
+3.Activate virtual environment-: venv\Scripts\activate 
+4. Install mySql connector-: pip install mysql-connector-python
+5. Create DB: create DB in MySql 
+6. Save DB as mcq.sql
+Project Structure 
+Templates:Folder
+       home.html
+       test.html
+       summary.html
+Style:Folder
+	static.css
+python :app.py
+
+6. To run the python code : use python app.py 
